@@ -67,6 +67,7 @@
     "test": "mocha --compilers coffee:coffee-script/register --reporter spec"
   },
   "dependencies": {
-    "slack-client": "~1.4.0"
+    "slack-client": "~1.4.0",
+    "simple-rate-limiter": "^0.2.3"
   }
 }
